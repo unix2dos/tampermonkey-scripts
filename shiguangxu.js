@@ -1,9 +1,12 @@
 // ==UserScript==
-// @name         时光序
+// @name         时光序菜单精简与事项重命名
 // @namespace    http://tampermonkey.net/
-// @version      1.0
-// @description  时光序优化
+// @version      2026.03.22
+// @description  隐藏低频菜单，精简事项筛选，并将“清单”重命名为“未分配时间”
 // @author       levonfly
+// @license      MIT
+// @homepageURL  https://github.com/unix2dos/user_scripts
+// @supportURL   https://github.com/unix2dos/user_scripts/issues
 // @match        https://web.shiguangxu.com/*
 // @match        https://shiguangxu.com/*
 // @grant        none

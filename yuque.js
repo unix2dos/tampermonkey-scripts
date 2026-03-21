@@ -1,9 +1,12 @@
 // ==UserScript==
-// @name         语雀
+// @name         语雀编辑增强
 // @namespace    http://tampermonkey.net/
-// @version      1.0
-// @description  语雀优化
-// @author       You
+// @version      2026.03.22
+// @description  移除冗余菜单、自动进入编辑模式，并让标题锚点持续可见
+// @author       levonfly
+// @license      MIT
+// @homepageURL  https://github.com/unix2dos/user_scripts
+// @supportURL   https://github.com/unix2dos/user_scripts/issues
 // @match        https://*.yuque.com/*
 // @match        https://yuque.com/*
 // @grant        none

@@ -1,8 +1,12 @@
 // ==UserScript==
-// @name         markdown标题快捷键
+// @name         Markdown 标题快捷键统一
 // @namespace    http://tampermonkey.net/
-// @version      20250527
-// @description  统一网站标题快捷键为 Cmd/Ctrl+数字
+// @version      2026.03.22
+// @description  为幕布、语雀、飞书统一 Cmd/Ctrl + 1~6 标题快捷键
+// @author       levonfly
+// @license      MIT
+// @homepageURL  https://github.com/unix2dos/user_scripts
+// @supportURL   https://github.com/unix2dos/user_scripts/issues
 // @match        https://*.mubu.com/*
 // @match        https://mubu.com/*
 // @match        https://*.yuque.com/*

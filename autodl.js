@@ -1,9 +1,12 @@
 // ==UserScript==
-// @name         AutoDL页面优化
+// @name         AutoDL 部署列表增强
 // @namespace    http://tampermonkey.net/
-// @version      2025-06-13
-// @description  自动为AutoDL部署列表页面添加page_size参数，隐藏包含"测试"和"-dev"的表格行，并按实时费用排序
-// @author       You
+// @version      2026.03.22
+// @description  自动扩展部署列表分页、隐藏测试实例，并按实时费用排序
+// @author       levonfly
+// @license      MIT
+// @homepageURL  https://github.com/unix2dos/user_scripts
+// @supportURL   https://github.com/unix2dos/user_scripts/issues
 // @match        https://www.autodl.com/deploy/list*
 // @grant        none
 // @run-at       document-start

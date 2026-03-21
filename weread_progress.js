@@ -1,8 +1,12 @@
 // ==UserScript==
 // @name         微信读书沉浸式进度显示
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      2026.03.22
+// @description  在阅读页右下角显示更平滑、更连续的实时阅读进度
 // @author       levonfly
+// @license      MIT
+// @homepageURL  https://github.com/unix2dos/user_scripts
+// @supportURL   https://github.com/unix2dos/user_scripts/issues
 // @match        https://weread.qq.com/web/reader/*
 // @grant        none
 // ==/UserScript==

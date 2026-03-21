@@ -1,9 +1,12 @@
 // ==UserScript==
-// @name         幕布网站增强工具
+// @name         幕布侧边栏精简与一键展开
 // @namespace    http://tampermonkey.net/
-// @version      20250510
-// @description  幕布增强
+// @version      2026.03.22
+// @description  精简幕布侧边栏，并新增一键展开一级节点按钮
 // @author       levonfly
+// @license      MIT
+// @homepageURL  https://github.com/unix2dos/user_scripts
+// @supportURL   https://github.com/unix2dos/user_scripts/issues
 // @match        https://mubu.com/app*
 // @match        https://*.mubu.com/app*
 // @grant        none
@@ -28,6 +31,9 @@
     // 优化元素
     function removeEnglishWarehouse() {
         const sidebarList = document.getElementById('sidebar-list');
+        if (!sidebarList) {
+            return;
+        }
         const divChildren = sidebarList.querySelectorAll(':scope > div');
         const targetDivs = Array.from(divChildren).filter(div => {
             return div.textContent.includes('模板中心') || div.textContent.includes('导入') || div.textContent.includes('与我协作') || div.textContent.includes('幕布精选') || div.textContent.includes('回收站');
@@ -40,7 +46,9 @@
             });
         }
         const tree = document.getElementById('js-documents-tree-scroll-view');
-        tree.style.height = '100%';
+        if (tree) {
+            tree.style.height = '100%';
+        }
     }
     removeEnglishWarehouse();
     setInterval(removeEnglishWarehouse, 2000);

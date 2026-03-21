@@ -1,9 +1,12 @@
 // ==UserScript==
-// @name         微信读书 - 双栏阅读模式强制单页
+// @name         微信读书单页阅读模式
 // @namespace    http://tampermonkey.net/
-// @version      1.0
-// @description  从 .app 根节点开始强制接管布局，实现 1059px 完美居中
+// @version      2026.03.22
+// @description  强制关闭双栏布局，恢复居中的单页阅读模式
 // @author       levonfly
+// @license      MIT
+// @homepageURL  https://github.com/unix2dos/user_scripts
+// @supportURL   https://github.com/unix2dos/user_scripts/issues
 // @match        https://weread.qq.com/web/reader/*
 // @run-at       document-start
 // @grant        GM_addStyle
